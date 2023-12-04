@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "BatmanForever"; 
+    src: url("/fonts/batman-forever/batmfa__.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "BatmanForever";
+    font-size: 24px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px !important;
+}
+.header_logo{
+    width: 81px;
+    margin: 17px 134px 17px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 809px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+li:hover{
+    color: #B9181D;
+    transition: 0.8s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.language{
+    width: auto;
+    height: 35px;
+    margin: 33px 100px 32px 184px;
+}
+
+.header_banner{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_banner img{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.main_our-team{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_our-team img{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.main_our-team p{
+    color: black;
+    margin-top: -80px;
+}
+span{
+    color: #B9181D;
+}
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 69px 0px 85px 0px;
+}
+.player_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    width: 239px;
+    height: 387px;
+    background-image: url('/images/Rectangle_grey.png');
+}
+.player_card:hover{
+    transition: 0.8s;
+    background-image: url('/images/Rectangle_red.png');
+}
+.player_card img{
+    width: 166px;
+    height: 135px;
+}
+.player_card p{
+    color: white;
+}
+h1{
+    font-size: 36px;
+    color: white;
+}
+.important_title{
+    padding: 40px 0px 55px 133px;
+    background: linear-gradient(90deg, #282828 0%, #060606 100%);
+}
+.important_title p{
+    width: 966px;
+    height: auto;
+    margin: 50px auto 56px 0;
+    color: white;
+}
+.line{
+    width: 550px;
+    background-color: white;
+    height: 1px;
+}
+.button{
+    width: 361px;
+    height: 73px;
+    color: white;
+    font-family: "BatmanForever";
+    font-size: 24px;
+    background-color: #282828;
+    border: #B9181D solid 3px;
+    cursor: pointer;
+}
+.button:hover{
+    transition: 0.8s;
+    background-color: #B9181D;
+}
+.gallery_slider{
+    padding: 0px 60px 0px 60px;
+    height: 480px;
+    background-color: #B9181D;
+}
+.slider_item{
+    width: 294px;
+    height: 294px;
+    margin: 50px;
+    border: solid 1px #000000;
+}
+
+.slider_item img{
+    width: 100%;
+    height: 100%;
+}
